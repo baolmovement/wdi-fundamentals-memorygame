@@ -50,7 +50,7 @@ cardsInPlay.push(cards[2].rank);
 console.log("User flipped " + cards[2].rank); 
 console.log(cards[2].cardImage);
 
-console.log(cards[0].src.setAttribute('src', this)
+console.log (cards[cardId].setAttribute('src', this);
 
 if (cardsInPlay.length === 2){alert("Sorry, try again!")} 
 	else if (cardsInPlay[0] === cardsInPlay[1]) {alert("You found a match!");}   
